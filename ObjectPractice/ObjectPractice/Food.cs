@@ -15,9 +15,9 @@ namespace ObjectPractice
         public bool liquid { get; set; }
         public bool solid { get; set; }
 
-        public string eatFood(string foodType)
+        public eatFood(string foodType)
         {
-            this.lowersHunger = 10;
+            //this.lowersHunger = 10;
         }
     }
 }

@@ -10,6 +10,10 @@ namespace ObjectPractice
     {
         static void Main(string[] args)
         {
+            Food pizza = new Food();
+            pizza.solid = true;
+            pizza.spicy = true;
+            pizza.hard = true;
         }
     }
 }
